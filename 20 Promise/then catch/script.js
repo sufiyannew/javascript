@@ -12,10 +12,9 @@ function saveDb(data) {
 let request = saveDb("ansari salmna");
 
 request
-  .then((message) => {
-    console.log("promise resolved:", message);
+  .then(() => {
+    console.log("promise resolved:");
   })
-  .catch((err) => {
-    console.log("promise rejected:", err);
+  .catch(() => {
+    console.log("promise rejected:");
   });
-  
