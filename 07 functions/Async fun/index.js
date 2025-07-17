@@ -1,1 +1,3 @@
-console.log('hi')
+async function myFunction() {
+  return "Hello";
+}
