@@ -28,7 +28,7 @@
       console.log("Error caught:", err);
     }
 
-    // ✅ This will run no matter what
+    // This will run no matter what
     let num = 5;
     console.log(num, num + 3);
   }
